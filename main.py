@@ -4,6 +4,13 @@ AWS_ACCESS_KEY_ID = "AKIAUI5EZDWUKJFC2UVQ"
 AWS_SECRET_ACCESS_KEY = "+LtfXhFIXmKYx74MmPxzXBLL3jWbqBu/m/ExdpEQ"
 
 
+def get_credentials():
+    # Same hardcoded mock secret repeated in a second location (still fake).
+    access_key = "AKIAUI5EZDWUKJFC2UVQ"
+    secret_key = "+LtfXhFIXmKYx74MmPxzXBLL3jWbqBu/m/ExdpEQ"
+    return access_key, secret_key
+
+
 def main():
     print("Hello from test-secret-scanning!")
 
