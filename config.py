@@ -1,4 +1,10 @@
 # --- MOCK SECRET FOR GITHUB SECRET SCANNING TEST (NOT A REAL CREDENTIAL) ---
+
+
+
+
+
+
 # Same fake AWS credentials as main.py, duplicated in a second file to test
 # how GitHub secret scanning reports the same secret across multiple locations.
 AWS_ACCESS_KEY_ID = "AKIAUI5EZDWUKJFC2UVQ"
